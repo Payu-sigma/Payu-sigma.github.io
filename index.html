@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
+    <title>Hoja de Vida - Pablo Andrés Fuentes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
         header {
             background-color: #005bb5; /* Un tono de azul más oscuro para el encabezado */
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
         }
         nav {
@@ -34,7 +34,12 @@
         }
         .content {
             padding: 20px;
-            text-align: center;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #ffcc00; /* Un tono amarillo para los títulos de sección */
         }
         footer {
             background-color: #005bb5; /* Mismo tono que el encabezado */
@@ -45,26 +50,61 @@
             width: 100%;
             bottom: 0;
         }
+        a {
+            color: #ffcc00; /* Color amarillo para los enlaces */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Hoja de Vida</h1>
+        <h2>Pablo Andrés Fuentes</h2>
+        <p>Estudiante con experiencia en jugar videojuegos</p>
     </header>
 
     <nav>
         <a href="#inicio">Inicio</a>
-        <a href="#acerca">Acerca de</a>
+        <a href="#acerca">Acerca de mí</a>
         <a href="#experiencia">Experiencia</a>
+        <a href="#habilidades">Habilidades</a>
         <a href="#contacto">Contacto</a>
     </nav>
 
     <div class="content">
         <h2 id="inicio">Inicio</h2>
-        <p>Bienvenido a mi hoja de vida. Aquí encontrarás información sobre mí.</p>
+        <p>Bienvenido a mi hoja de vida. Aquí encontrarás información sobre mí, mis habilidades y mi experiencia.</p>
 
-        <h2 id="acerca">Acerca de</h2>
-        <p>Soy un profesional con experiencia en diversos campos. Aquí puedes conocer más sobre mis habilidades y logros.</p>
+        <h2 id="acerca">Acerca de mí</h2>
+        <p>Mi nombre es <strong>Pablo Andrés Fuentes</strong>. Soy un estudiante apasionado por la tecnología y los videojuegos. Desde muy joven, he desarrollado habilidades en el ámbito de los videojuegos, lo que me ha permitido mejorar mi pensamiento estratégico, trabajo en equipo y resolución de problemas.</p>
 
-        <h2 id="experiencia">
+        <h2 id="experiencia">Experiencia</h2>
+        <p>He acumulado una amplia experiencia en el mundo de los videojuegos, participando en torneos y colaborando con equipos para alcanzar objetivos comunes. Algunos de mis logros incluyen:</p>
+        <ul>
+            <li>Participación en torneos locales y en línea.</li>
+            <li>Desarrollo de estrategias efectivas para juegos competitivos.</li>
+            <li>Colaboración en equipos para lograr victorias en juegos multijugador.</li>
+        </ul>
+
+        <h2 id="habilidades">Habilidades</h2>
+        <p>Mis habilidades incluyen:</p>
+        <ul>
+            <li>Pensamiento estratégico y toma de decisiones bajo presión.</li>
+            <li>Comunicación efectiva y trabajo en equipo.</li>
+            <li>Conocimientos técnicos sobre hardware y software de gaming.</li>
+            <li>Adaptabilidad a diferentes géneros de videojuegos.</li>
+        </ul>
+
+        <h2 id="contacto">Contacto</h2>
+        <p>Si deseas contactarme, puedes enviarme un correo electrónico a: <a href="mailto:pablo.fuentes@example.com">pablo.fuentes@example.com</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Hoja de Vida - Pablo Andrés Fuentes. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
